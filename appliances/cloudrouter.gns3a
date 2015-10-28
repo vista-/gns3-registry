@@ -1,0 +1,65 @@
+{
+    "status": "experimental",
+    "vendor_url": "https://cloudrouter.org",
+    "maintainer": "GNS3 Team",
+    "name": "CloudRouter",
+    "documentation_url": "https://cloudrouter.atlassian.net/wiki/display/CPD/CloudRouter+Project+Information",
+    "registry_version": 1,
+    "category": "router",
+    "vendor_name": "CloudRouter Community",
+    "description": "The CloudRouter Project is a collaborative open source project focused on developing a powerful, easy to use router designed for the cloud.",
+    "usage": "Login: cloudrouter and password CloudRouter",
+    "qemu": {
+        "ram": 2048,
+        "console_type": "telnet",
+        "arch": "x86_64",
+        "options": "",
+        "adapters": 16,
+        "adapter_type": "virtio-net-pci",
+        "boot_priority": "c"
+    },
+    "versions": [
+        {
+            "name": "2.0 full",
+            "images": {
+                "hda_disk_image": "CloudRouter-2.0-fedora-full.raw",
+                "cdrom_image": "cloudrouter-init.iso"
+            }
+        },
+        {
+            "name": "2.0 minimal",
+            "images": {
+                "hda_disk_image": "CloudRouter-2.0-fedora-minimal.raw",
+                "cdrom_image": "cloudrouter-init.iso"
+            }
+        }
+    ],
+    "images": [
+        {
+            "download_url": "https://cloudrouter.atlassian.net/wiki/display/CPD/CloudRouter+Downloads",
+            "md5sum": "b566a9232da54136418ea2bd37902283",
+            "filesize": 374784,
+            "version": "2.0",
+            "direct_download_url": "https://repo.cloudrouter.org/fedora/22/images/cloudrouter-init.iso",
+            "filename": "cloudrouter-init.iso"
+        },
+        {
+            "download_url": "https://cloudrouter.atlassian.net/wiki/display/CPD/CloudRouter+Downloads",
+            "md5sum": "8990ba3c1eb2462928145cd238375733",
+            "filesize": 6442450944,
+            "version": "2.0",
+            "direct_download_url": "https://repo.cloudrouter.org/fedora/22/images/CloudRouter-2.0-fedora-full.raw.xz",
+            "filename": "CloudRouter-2.0-fedora-full.raw"
+        },
+        {
+            "download_url": "https://cloudrouter.atlassian.net/wiki/display/CPD/CloudRouter+Downloads",
+            "md5sum": "108273ef775529231d1e62f669d9ede9",
+            "filesize": 6442450944,
+            "version": "2.0",
+            "direct_download_url": "https://repo.cloudrouter.org/fedora/22/images/CloudRouter-2.0-fedora-minimal.raw.xz",
+            "filename": "CloudRouter-2.0-fedora-minimal.raw"
+        }
+    ],
+    "maintainer_email": "developers@gns3.net",
+    "product_name": "CloudRouter"
+}
