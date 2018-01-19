@@ -25,8 +25,8 @@
         {
             "filename": "csr1000v-universalk9.16.07.01-serial.qcow2",
             "version": "16.7.1",
-            "md5sum": "13adbfc2586d06c9802b9805168c0c44",
-            "filesize": 882769920,
+            "md5sum": "bad9000d4ae8317bbc99a34a8cdd2eb4",
+            "filesize": 884539392,
             "download_url": "https://software.cisco.com/download/release.html?mdfid=284364978&flowid=39582&softwareid=282046477&release=Fuji-16.7.1&relind=AVAILABLE&rellifecycle=ED&reltype=latest"
         },
         {
